@@ -1,0 +1,249 @@
+body {
+  background-color: transparent !important;
+  display: none;
+}
+
+#fh5co-hero .fh5co-overlay {
+  background-color: transparent !important;
+}
+
+.telegram_container {
+  position: absolute;
+  margin: 0 auto;
+
+  font-size: 1.2vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  background-image: url("telegram.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+  top: 35%;
+  left: 35%;
+  width: 35%;
+  height: 35%;
+
+  user-select: none;
+}
+
+.telegram_content {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  /* background-color: rgba(255, 255, 255, 0.363); */
+
+  top: 40%;
+  width: 90%;
+  height: 42%;
+}
+
+
+.telegram_message {
+  position: relative;
+  margin: 0 auto;
+
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  overflow-x: scroll;
+  overflow-y: scroll;
+
+  font-weight: bold;
+  font-size: 0.8vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  width: 100%;
+  height: 90%;
+  top: -11%;
+
+  color: #000000;
+  /* background-color: rgba(0, 0, 0, 0.295); */
+}
+
+.telegram_sender {
+  position: relative;
+  margin: 0 auto;
+  
+  overflow-wrap: break-word;
+  /* overflow-x: scroll; */
+  overflow-y: scroll;
+
+  font-weight: bold;
+  font-size: 1.0vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  width: 100%;
+  height: 43%;
+  top: -13%;
+
+  color: #000000;
+  /* background-color: rgba(233, 92, 92, 0.295); */
+}
+
+
+.telegram_content_sending {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  /* background-color: rgba(255, 255, 255, 0.363); */
+
+  top: 40%;
+  width: 90%;
+  height: 42%;
+}
+
+
+.telegram_sender_sending {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+
+  top: 40%;
+  width: 90%;
+  height: 42%;
+  user-select: text;
+} 
+
+.telegram_message_sending {
+  display: none;;
+  font-weight: bold;
+  font-size: 1.0vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  /* margin-top: -3%; */
+  /* margin-left: 2%; */
+  width: 100%;
+  height: 100%;
+
+  color: #000000;
+  overflow-wrap: break-word;
+  /* background-color: rgba(0, 0, 0, 0.295); */
+}
+
+#telegram_sender_sending_identifier {
+  font-weight: bold;
+  font-size: 1.0vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-color: transparent;
+  width: 30%;
+}
+
+#telegram_sender_sending_station {
+  font-weight: bold;
+  font-size: 1.0vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-color: transparent;
+  width: 60%;
+}
+
+#telegram_message_sending_body {
+  font-weight: bold;
+  font-size: 0.7vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  overflow-y: scroll;
+  background-color: transparent;
+  width: 99%;
+  height: 100%;
+  resize: none;
+}
+
+option{
+  font-weight: bold;
+  font-size: 1.0vw;
+  font-family: 'Playfair Display', serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 1px solid #fff;
+  background-color: rgb(204, 183, 162);
+
+}
+
+.telegram_buttons {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin: 0 auto;
+  /* background-color: rgba(255, 0, 0, 0.363); */
+
+  top: 44%;
+  width: 89.5%;
+  height: 8%;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.telegram_new_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  left: 11.5%;
+}
+
+.telegram_delete_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  left: 0%;
+}
+
+.telegram_next_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  right: 0%;
+  /* background-color: rgba(0, 0, 0, 0.226); */
+}
+
+.telegram_buttons_send {
+  display: none;
+}
+
+.telegram_back_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  right: 10%;
+  /* background-color: rgba(255, 255, 0, 0.151); */
+}
+
+.telegram_track_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  right: 26.5%;
+  /* background-color: rgba(255, 255, 0, 0.151); */
+}
+
+.telegram_send_button {
+  position: absolute;
+
+  text-decoration: none;
+  color: black;
+
+  right: 0%;
+  /* background-color: rgba(255, 255, 0, 0.151); */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
